@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+   <style>
+    .main{
+        background-color: rgb(241, 251, 251);
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 1px;
+        gap: 12px;
+       
+    }
+    .main>div{
+        background-color: brown;
+        padding: 0px;
+        border: 1px solid black;
+        height: 30vh;
+       
+    
+    }
+    .grdiitem1{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+    .grdiitem3{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    .grdiitem4{
+        grid-column-start: 2;
+        grid-column-end: 4;
+    }
+    .grdiitem5{
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+   
+   </style>
+</head>
+<body>
+    <div class="main">
+        <div class="grdiitem1" style="background-color: azure;">
+            <img src="./1.jpeg" style="width: 100%; height: 30vh;">
+        </div>
+        <div class="grdiitem2" style="background-color: black;">
+            <img src="./2.jpeg" style="width: 100%; height: 30vh;">
+        </div>
+        <div class="grdiitem3" style="background-color: blueviolet;">
+            <img src="./4.jpeg" style="width: 100%; height: 30vh;">
+        </div>
+        <div class="grdiitem4" style="background-color: cadetblue;">
+            <img src="./6.jpeg" style="width: 100%; height: 30vh;">
+        </div>
+        <div class="grdiitem5" style="background-color: chartreuse;">
+            <img src="./3.jpeg" style="width: 100%; height: 30vh;">
+        </div>
+        <div class="grdiitem6" style="background-color: chocolate;">
+            <img src="./mahesh.jpeg" style="width: 100%; height: 30vh;">
+        </div>
+       
+       
+    </div>
+</body>
+</html>

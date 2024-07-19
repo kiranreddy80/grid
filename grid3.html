@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid</title>
+    <style>
+   .main{
+    background-color: rgb(235, 243, 240);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    height: 40vh;
+    gap: 10px;
+   }
+   .main>div{
+    border: 1px solid black;
+   }
+   .griditem1{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+   }
+   .griditem2{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+   }
+   .griditem3{
+    grid-row-start: 2;
+    grid-row-end: 4;
+    grid-column-start: 2;
+    grid-column-end: 4;
+   }
+   .griditem4{
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+   }
+   .griditem5{
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 2;
+   }
+   .griditem6{
+    grid-row-start: 3;
+    grid-row-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 2;
+   }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="griditem1" style="background-color: aqua;">1</div>
+        <div class="griditem2" style="background-color: rgb(213, 243, 21);">2</div>
+        <div class="griditem3" style="background-color: rgb(99, 253, 104);">3</div>
+        <div class="griditem4" style="background-color: rgb(245, 132, 12);">4</div>
+        <div class="griditem5" style="background-color: rgb(16, 34, 233);">5</div>
+        <div class="griditem6" style="background-color: rgb(246, 28, 203);">6</div>
+       
+    </div>
+</body>
+</html>
